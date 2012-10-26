@@ -1,0 +1,3 @@
+<input type='hidden' name='username' value= $USER>
+<li> <a href="$URL?blog=$BLOG&username=$USER&userPST=$USERPST&action=display_blog">$BLOG_TITLE</a>
+by $USERPST

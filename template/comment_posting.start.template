@@ -1,0 +1,7 @@
+<h2> $POST_TITLE in $BLOG_TITLE</h2>
+
+<p><font color=\"White\"><b>$POST_CONTENT</b></font><p>$POST_TITLE
+
+<p>
+$POST_CONTENT
+<p>

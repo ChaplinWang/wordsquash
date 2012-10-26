@@ -1,0 +1,21 @@
+<h2>Create a New Posting to $BLOG_TITLE</h2>
+<form method="GET" action="$URL">
+Post title: <input type="text" name="new_posting_title">
+<p>
+<textarea name="new_posting_contents" rows="20" cols="60">
+</textarea>
+<p>
+<input type="hidden" name="blog" value="$BLOG">
+<input type="hidden" name="action" value="display_blog">
+<input type="hidden" name="username" value=$USER>
+<input type="hidden" name="userPST" value=$USER>
+<input type="submit" value="Create Blog Post">
+</form>
+<br>
+
+<small><a href="$URL?username=$USER&blog=$BLOG&action=display_blog">Back to blog display page</a></small>
+<p>
+<small><a href="$URL?action=list_blogs&username=$USER">back to main display page</a></small>
+<p>
+<small><a href="$URL">Log off</a></small>
+

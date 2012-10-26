@@ -1,0 +1,3 @@
+<p>
+<a href="$URL?blog=$BLOG&userPST=$USERPST&username=$USER&post=$POST_TITLE&action=comment_posting&location=$LOCATION&delete_comment='1'">Delete</a>
+

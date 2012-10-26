@@ -1,0 +1,11 @@
+<hr>
+<p>
+$COMMENT
+<p>
+<small>Posted  at $TIME by $PEOPLE</small>
+
+
+<input type="hidden" name="postContentent" value="$POST_CONTENT">
+
+<br>
+

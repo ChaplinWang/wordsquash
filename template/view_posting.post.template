@@ -1,0 +1,6 @@
+$POST_TITLE<br><br>
+<small>Posted  at $TIME by $PEOPLE</small>
+<br><br>
+$POST_CONTENT
+<p>
+

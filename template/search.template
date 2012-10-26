@@ -1,0 +1,10 @@
+<br>
+<br>
+<form method="POST" action="$URL">
+<input type="hidden" name="action" value="search_result">
+<input type="hidden" name="username" value="$USER">
+
+<input type="text" name="search_text">
+<input type="submit" value="Search">
+</form>
+

@@ -1,0 +1,14 @@
+<h2>Editing comment</h2>
+<form method="GET" action="$URL">
+
+<p>
+<textarea name="edit_comment" rows="20" cols="60">$COMMENT</textarea>
+<p>
+<input type="hidden" name="blog" value="$BLOG">
+<input type="hidden" name="location" value="$LOCATION">
+<input type="hidden" name="userPST" value="$USERPST">
+<input type="hidden" name="username" value="$USER">
+<input type="hidden" name="post" value="$POST_TITLE">
+<input type="hidden" name="action" value="comment_posting">
+<input type="submit" value="Edit Blog Post">
+</form>

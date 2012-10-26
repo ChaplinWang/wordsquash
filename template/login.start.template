@@ -1,0 +1,11 @@
+<h2>Login page</h2>
+<form method="POST" action="$URL">
+name: <input type="textfield" name="username">
+<p>
+passord: <input type="password" name="password">
+<p>
+
+<input type="submit" value="Login">
+<input type='hidden' name='action' value='login_result'>
+</form>
+

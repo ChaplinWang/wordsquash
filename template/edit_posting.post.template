@@ -1,0 +1,13 @@
+<h2>Edit $POST_TITLE to $BLOG_TITLE</h2>
+<form method="GET" action="$URL">
+Post title: $POST_TITLE
+<p>
+<textarea name="edit_posting_contents" rows="20" cols="60">$POST_CONTENT</textarea>
+<p>
+<input type="hidden" name="blog" value="$BLOG">
+<input type="hidden" name="userPST" value="$USERPST">
+<input type="hidden" name="username" value="$USER">
+<input type="hidden" name="post" value="$POST_TITLE">
+<input type="hidden" name="action" value="display_blog">
+<input type="submit" value="Edit Blog Post">
+</form>

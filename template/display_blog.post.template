@@ -1,0 +1,11 @@
+<hr>
+<li> <a href="$URL?blog=$BLOG&post=$POST_TITLE&username=$USER&userPST=$USERPST&action=view_posting&location=$LOCATION">$POST_TITLE</a> <br>
+<small>Posted  at $TIME by $PEOPLE</small>
+<p>
+$POST_CONTENT
+<p>
+<a href="$URL?blog=$BLOG&post=$POST_TITLE&userPST=$USERPST&username=$USER&action=comment_posting">$N_COMMENTS comments</a>
+<input type="hidden" name="postContentent" value="$POST_CONTENT">
+<input type='hidden' name='username' value= $USER>
+<input type='hidden' name='userPST' value= $USERPST>
+

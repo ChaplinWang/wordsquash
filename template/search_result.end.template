@@ -1,0 +1,6 @@
+<br>
+<small><a href="$URL?username=$USER&userPST=$USERPST&blog=$BLOG&action=display_blog">Back to blog display page</a></small>
+<p>
+<small><a href="$URL?action=list_blogs&username=$USER">back to main display page</a></small>
+<p>
+<small><a href="$URL">Log off</a></small>

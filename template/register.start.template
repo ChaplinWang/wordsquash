@@ -1,0 +1,14 @@
+<h2>Register page</h2>
+<form method="POST" action="$URL">
+name: <input type="textfield" name="username">
+<p>
+password: <input type="password" name="password">
+<p>
+email: <input type="textfield" name="email">
+<p>
+<input type="hidden" name="action" value="regist_result">
+<input type="submit" value="Register">
+</form>
+<br>
+
+

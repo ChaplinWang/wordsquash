@@ -1,0 +1,15 @@
+<form method="GET" action="$URL">
+Blog name: <input type="text" name="blog">
+<p>
+Blog title: <input type="text" name="new_blog_title">
+<p>
+<input type="hidden" name="action" value="display_blog">
+<input type="hidden" name="username" value=$USER>
+<input type="submit" value="Create Blog">
+</form>
+<br>
+
+<small><a href="$URL?action=list_blogs&username=$USER">back to main display page</a></small>
+<p>
+<small><a href="$URL">Log off</a></small>
+
